@@ -12,20 +12,30 @@
 
 **A Minecraft Java Edition resource pack** that reimagines the Bedrock texture from scratch. Instead of updating or modifying the original texture, this pack presents Bedrock exactly as Jappa would have designed it on a blank canvas, fully embracing the clean, modern aesthetic of contemporary Minecraft.
 
-## 👁️‍🗨️ Overview
+## 🔍 Overview
 
 ![Screenshot](assets/screenshot.png)
 
+## 🔗 Dependencies
+
+This repository uses [Nix](https://nixos.org) to provide a consistent development environment via `nix-shell` with all the necessary tools.
+
+> [!WARNING]
+> Nix is natively supported only on Unix-like operating systems (Linux and macOS). Windows users can use it via WSL2 (Windows Subsystem for Linux).
+
+### ✍️ Manual Installation (Alternative)
+If you prefer not to use Nix, or if you are on a system that doesn't support it, you can install all the required tools manually. You will need:
+
+* [GNU Make](https://ftp.gnu.org/gnu/make/) – For automating the packaging process.
+* [minizip-ng](https://github.com/zlib-ng/minizip-ng) – For packaging of zip archives.
+* [yq](https://github.com/mikefarah/yq) – For parsing TOML.
+
 ## 🛠️ Packaging
 
-This repository uses [Nix](https://nixos.org) to automate the packaging process, which is required to package the resource pack.
-
 > [!TIP]
-> 📁 [`src/`](src/) – Contains the raw source files of the resource pack that will be packaged.
+> 📁 [`src/`](src/) – Contains the source files of the pack.
 >
-> 📦 [`packages/`](packages/) – The directory where the final, ready-to-use resource packs are generated and stored.
-
-### 👣 Steps
+> 📦 [`packs/`](packs/) – Contains final, ready-to-use packs.
 
 1. **Enter the Nix environment:**
    Open your terminal in the root directory of the repository and run:
@@ -35,7 +45,7 @@ This repository uses [Nix](https://nixos.org) to automate the packaging process,
    *This will automatically download and install all necessary tools.*
 
 2. **Build the pack:**
-   Inside the Nix shell, run the following command to package the resource pack:
+   Inside the Nix shell, run the following command to package:
    ```bash
    make
    ```
