@@ -1,8 +1,7 @@
 [project]
 name = "jappa-bedrock"
 version = "1.0"
-license-files = ["LICENSE"]
-packages-dir = "packages"
+packs-dir = "packs"
 src-dir = "src"
 
 [[project.authors]]
@@ -11,5 +10,13 @@ email = "segabass65@proton.me"
 
 [project.urls]
 Author = "https://github.com/segabass65"
-RepositoryMcPackEnv = "https://github.com/segabass65/mc-pack-env"
-PackRepository = "https://github.com/segabass65/jappa-bedrock"
+Repository = "https://github.com/segabass65/jappa-bedrock"
+Modrinth = "https://modrinth.com/resourcepack/jappa-bedrock"
+
+[[tool.mc-pack-env.authors]]
+name = "SegaBASS (segabass65)"
+email = "segabass65@proton.me"
+
+[tool.mc-pack-env.urls]
+Author = "https://github.com/segabass65"
+Repository = "https://github.com/segabass65/mc-pack-env"
