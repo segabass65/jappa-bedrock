@@ -3,7 +3,7 @@
     "description": "Reimagines the Bedrock texture completely",
     "pack_format": 64,
     "min_format": 1,
-    "max_format": 88,
+    "max_format": 97.1,
     "supported_formats": [1, 64]
   }
 }

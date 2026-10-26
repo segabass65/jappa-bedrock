@@ -2,7 +2,7 @@
   <h1>
     <img src="src/pack.png" width="256" alt="Icon"/><br/>
     Jappa Bedrock 🕳️<br/>
-    <img src="https://img.shields.io/badge/Versions-1.6.1_--_26.1.2-purple?style=for-the-badge" alt="Versions 1.6.1 - 26.1.2">
+    <img src="https://img.shields.io/badge/Versions-1.6.1_--_26.1.2-purple?style=for-the-badge" alt="Versions 1.6.1 - 26.3">
     <img src="https://img.shields.io/badge/Edition-Java-orange?style=for-the-badge" alt="Java Edition"><br/>
     <a href="https://modrinth.com/resourcepack/jappa-bedrock">
       <img src="https://img.shields.io/badge/Available_on-Modrinth-00AF5C?style=for-the-badge&logo=modrinth" alt="Available on Modrinth"></img>
